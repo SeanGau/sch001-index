@@ -1,0 +1,66 @@
+a, b, p, h1, h2, h3, h4, h5, h6, li{
+	color: #444;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+p {		
+	color: #666;	
+	text-align: justify;
+	text-justify:inter-ideograph;
+}
+
+a:link, a:visited {
+	color: #007bff;
+}
+
+.navbar .navbar-brand {
+	font-weight: bold;
+}
+
+.navbar .navbar-nav a.nav-link:hover {
+	color: #f8f9fa;
+	background-color: #0b2e43;
+}
+
+#header {
+	height: 100vh;
+	background-image: url(../assets/img/header.png);
+	background-position: center center;
+	background-size: cover;
+}
+
+#header-img {
+	width: 100%;
+}
+
+#howto-steps div p {
+	padding: 0.5rem;
+    text-align-last: center;
+}
+
+#howto-steps div a {
+	font-size: 0.9rem;
+}
+
+.step-img {
+	margin-bottom: 10px;
+    width: 100%;
+    min-height: 200px;
+    border-radius: 3px;
+	background-position: center center;
+	background-size: cover;
+}
+
+.team-img {
+	margin-bottom: 10px;
+    width: 100%;
+    min-height: 150px;
+    border-radius: 3px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#contact p {
+	text-align: left;	
+}
