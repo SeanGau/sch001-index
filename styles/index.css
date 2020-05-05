@@ -20,6 +20,13 @@ a:link, a:visited {
 .navbar .navbar-nav a.nav-link:hover {
 	color: #f8f9fa;
 	background-color: #0b2e43;
+	border-radius: 3px;
+}
+
+.navbar .navbar-nav a.nav-dash {
+	border-radius: 3px;
+	border: 1px solid #AAA;
+	margin: 0 0.5rem;
 }
 
 #header {
