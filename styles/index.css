@@ -33,6 +33,10 @@ a:link, a:visited {
 	width: 100%;
 }
 
+#howto-steps > div {
+	margin-bottom: 1rem;
+}
+
 #howto-steps div p {
 	padding: 0.5rem;
     text-align-last: center;
@@ -51,6 +55,55 @@ a:link, a:visited {
 	background-size: cover;
 }
 
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #AAA;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: calc(100% - 1.2rem);
+	margin-top: 0.6rem;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 2rem 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: #AAA;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+	margin: 0.6rem 0;
+    left: 25px;
+    width: 10px;
+    height: 10px;
+    z-index: 400;
+}
+ul.timeline > li p {
+	text-align: left;
+	margin: 0.5rem;
+	word-break: break-all;
+}
+ul.timeline .timeline-title {
+	font-size: 1.2rem;
+}
+ul.timeline .timeline-date {
+	color: #666;
+	font-size: 0.8rem;
+	margin: 0 1rem;
+}
+ul.timeline .timeline-details {
+	line-height: 1rem;
+	padding: 1rem 0;
+}
+
 .team-img {
 	margin-bottom: 10px;
     width: 100%;
@@ -63,4 +116,16 @@ a:link, a:visited {
 
 #contact p {
 	text-align: left;	
+}
+
+#footer {
+	padding: 1rem 0;
+	background-color: #444;
+}
+
+#footer a:link {
+	color: #DDD;
+}
+#footer a:visited {
+	color: #DDD;
 }
